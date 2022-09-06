@@ -1,16 +1,25 @@
+
 package heranca;
 
-public class Automovel extends Terrestre {
+public class Automovel extends Terrestre{
 
     private String numPlaca;
     private int numPortas;
-
-    public void ImprimeDadosCarro() {
+    
+    public void ImprimeDadosCarro(){
         System.out.println("Placa: " + numPlaca);
         System.out.println("N° Portas: " + numPortas);
         System.out.println("N° de Rodas: " + numRodas);
         System.out.println("Capacidade: " + capacidade);
-    }
+    } 
+    
+    
+    public void ImprimeDadosMoto(){
+        System.out.println("Placa: " + numPlaca);
+        System.out.println("N° Portas: " + numPortas);
+        System.out.println("N° de Rodas: " + numRodas);
+        System.out.println("Capacidade: " + capacidade);
+    } 
 
     public String getNumPlaca() {
         return numPlaca;
