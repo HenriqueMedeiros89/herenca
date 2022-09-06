@@ -1,8 +1,8 @@
 package heranca;
 
-public class transporte {
+public class Transporte {
 
-    private int capacidade;
+    protected int capacidade;
 
     public int getCapacidade() {
         return capacidade;
@@ -11,7 +11,5 @@ public class transporte {
     public void setCapacidade(int capacidade) {
         this.capacidade = capacidade;
     }
-    
-    
 
 }
